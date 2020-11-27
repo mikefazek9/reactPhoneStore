@@ -4,6 +4,8 @@ import iphonexr from '../../img/iphonexr.jpg';
 import samsungNote1 from "../../img/samsungnote.jpg";
 import googlepixel from "../../img/googlepixel.jpg";
 import infoProduct from "../../Data";
+
+
 function Phonelayout() {
     return (
         <div className="phone_layout_container">

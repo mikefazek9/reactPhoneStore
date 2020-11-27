@@ -81,4 +81,13 @@ a:hover {
 
 .best_seller_images {
   width: 50%;
+  display: block;
+  position: relative;
+  transition: transform 550ms ease-out;
+}
+
+.best_seller_images:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transform-origin: center;
 }
